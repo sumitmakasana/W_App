@@ -64,6 +64,10 @@ struct ContentView: View {
     }
     
     func fetchWeather() {
+        
+        
+        print("HIIIII")
+        
         guard !cityName.isEmpty else {
             weatherData = "Please enter a city name"
             return
